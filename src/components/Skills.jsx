@@ -5,12 +5,9 @@ import Django from '../assets/django.svg';
 import ReactImg from '../assets/react.png';
 import Springboot from '../assets/springboot.png';
 import FireBase from '../assets/firebase.png';
-import Angular from '../assets/angular.png';
-import GitHub from '../assets/github.png';
 import Android from '../assets/android.png';
-import Javascript from '../assets/javascript.png';
 import Flutter from '../assets/flutter.png';
-import Pandas from '../assets/pandas.png';
+
 const Skills = () => {
   return (
 
@@ -55,14 +52,8 @@ const Skills = () => {
             <img className='w-20 mx-auto' src={Android} alt="HTML icon" />
             <p className='my-4'>ANDROID</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Pandas} alt="HTML icon" />
-            <p className='my-4'>Pandas</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={sql} alt="HTML icon" />
-            <p className='my-4'>SQL</p>
-          </div>
+         
+          
         </div>
       </div>
       </div>
